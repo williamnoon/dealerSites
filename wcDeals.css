@@ -1,0 +1,270 @@
+/* CSS declarations go here */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, ruby, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.address li {
+  text-align: right;
+  margin-top: 0px !important;
+}
+.ph_head  {
+  color: #6CBD44;
+  display: inline 
+  text-decoration: none !important;
+   text-align: right;
+margin-right: 0px;
+    text-shadow: 1px 1px 1px #000;
+}
+.address h1 {
+  text-align: right;
+  font-size: 40px;
+  color:#6CBD44;
+  text-shadow: 1px 1px 1px #000;
+  margin-top: 0px !important;
+    margin-right: 0px;
+    margin-bottom: 0px !important;
+    padding: 0;
+}
+    
+.address h2 {
+  text-align: right;
+    margin-right: 0px;
+  font-size: 17px;
+  color: #6CBD44;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+  
+.clear {
+  clear: both;
+}
+#nav {
+  max-width: 1248px;
+  display:inline;
+float: right;
+  margin: 0 auto;
+padding: none;
+
+}
+#nav ul li {
+  margin-left: 0px important!;
+    margin-right: 5px;
+  margin-top: 0px;
+    padding-left: 5px;
+  line-height: 70px;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+ul li {
+  list-style: none;
+}
+#nav ul li a {
+  display: block;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #6CBD44;
+  text-align: left;
+  text-decoration: none;
+  padding: 0 10px;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+slideshow {
+  margin: 0px auto 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+    border-bottom: 2px solid #00011e;}
+    .rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1248px;
+  width: auto;
+  margin: 0 auto;
+}
+.Tagline {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px 0;
+  background: #25479E;
+  border-radius: 8px;
+}
+
+.Tagline h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 8px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.quick_link {
+  overflow: hidden;
+  margin: 10px auto;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+#footer {
+  overflow: hidden;
+  background: #010220;
+  color: #fff;
+  position: relative;
+  padding: 30px 0px 0px;
+  margin-bottom: 0px !important;
+}
+#foot_nav {
+  float: left;
+  width: 20%;
+}
+#foot_nav ul li {
+  list-style: none;
+}
+
+.loc {
+  float: left;
+  width: 46%;
+}
+.loc iframe {
+  width: 100%;
+  height: 240px;
+}
+.cont_info {
+  float: left;
+  width: 30%;
+  color: #fff;
+  padding-left: 60px;
+}
+div.inFocus:hover { border: 3px; border-color:#6CBD44; text-color: #6CBD44; text-decoration: none; }
+#slider_container {border-color: #6CBD44;  border: 3px;}
+#powerlinkFrame, #my-iframe{
+border: none;
+width: 100%;
+
+margin: 0;
+padding: 0;
+
+overflow-y: hidden;
+}
+.spinner {margin: 0px auto;}
+.story {
+    font-size: 17px; 
+}
+.media-list, .apply, .story, .upgrade  {padding-left: 5px; margin: 10px;}
+.story h3{ color:#6CBD44;}
+.bot_main h3{ color:#6CBD44;}
+ h3{ color:#6CBD44;}
+.reviews h2, h3 { color:#6CBD44;}
+.reviews h2{margin-top: 20px}
+.wholeName{ color:#25479E;}
+.saleName{ color:#6CBD44; }
+.side-right p {float: right; margin-top: 10px}
+#slider_container { margin-top: 7px;}
+.likeImage{margin-top:100px;}
+.wizard {width: 80%;
+  min-width: 350px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.ui.steps {
+  margin-bottom: 40px;
+}
+#map, #footer_nav_links {margin-left: 20px; margin-top:5px;}
+#contact_info{float:right; margin-top: 0px;}
+.staff {margin-top: 5px; float: right;}
+
+
+@media only screen and (max-width: 700px)  {
+    
+    .address h1 {
+  text-align: center;
+  font-size: 30px;
+  color:#6CBD44;
+  margin: 0 auto;
+    padding: 0;
+    text-shadow: none;
+}
+    
+.address h2 {
+  text-align:center;
+  color: #6CBD44;
+  margin-top: 5px;
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+     .Tagline h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 8px;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+     #foot_nav {
+    text-align: center;
+}
+#foot_nav ul li {
+  list-style: none;
+    text-align: center;
+}
+   
+ 
+
+ }
+  @media only screen and (min-width: 500px)  {
+      #menu_icon{ display: none;}
+
+#contact_info{float:none; margin-top: 0px;}
+      
+  }
+
+.bx-wrapper, .bx-viewport, .bx-wrapper img {max-height: 420px !important;}
+.spinner-container {
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+.approval_notice { margin-right:25px; margin-left: 25px; margin-top:40px;
+    height: 100%;         }
+#approval_notice { width: 80%; 
+    height: 80%;  margin-top:40px       }
+.aprroval_img {margin-top: 25px;}
+

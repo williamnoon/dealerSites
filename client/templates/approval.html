@@ -1,0 +1,38 @@
+<template name="approval">
+<div class="container_fluid">
+    <div class="Tagline">
+       <h1><span class="Tagline">Approval</span></h1>
+       </div>
+    <div class="row">
+    <div class="appy col-xs-12 col-sm-6 col-md-7" >
+    {{> wizard id="approval" route="approval" steps=steps stepsTemplate="steps_semanticUI"
+   buttonClasses="btn btn-primary" confirmButton="Submit"}}
+        
+        </div>
+     <div class=" col-xs-12 col-sm-6 col-md-5">
+        <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Privacy Disclaimer</h3>
+  </div>
+  <div class="panel-body">
+         <p>
+             By filling out and submitting to Wholesale Car Deals the form to the left you are granting us permission to pull your personal credit report using the information you provided. <P>This information will allow Wholesale Car Deals to evaluate all available options to get you approved for a vehicle loan at the best possible rates.</P> You are not obligated to accept our offer and your information will be not be shared without your permission. </p><p>You will need to provide the following additional information prior to financing your vehicle.</p>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-check-square"></i> Proof of Residence via Utility Bill</li>
+<li><i class="fa-li fa fa-check-square"></i> Your Drivers License</li>
+<li><i class="fa-li fa fa-check-square"></i> Proof of Employment (pay stub or earnings statement)</li>
+<li><i class="fa-li fa fa-check-square"></i> (5) Personal References</li>
+<li><i class="fa-li fa fa-check-square"></i> Other information as requested by Our Lender(s) if necessary</li>
+</ul>   
+
+            
+            
+          </div>
+        
+        </div>
+        </div>
+    </div>
+    
+    </div>
+    
+</template>

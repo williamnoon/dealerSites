@@ -1,0 +1,42 @@
+<template name="appDecision">
+<div class="container_fluid">
+    <div class="Tagline">
+       <h1><span class="Tagline">Pre-Qualification Decision</span></h1>
+       </div>
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12" id="aprroval_notice">
+<div class="panel panel-default">
+  <div class="panel-body">
+      {{#if processingDone}}
+        {{> decision}}
+    {{else}}
+      <h3 class="text-center">Processing Your Application......</h3>
+        {{> spinner}} 
+    {{/if}}
+          </div>
+         
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="clear"></div>
+</template>
+
+<template name="decision">
+    <div class="aprroval_notice row">
+        <div class="col-xs-8 col-sm-8 col-md-8" id="aprroval_notice">
+      <h3> You have been pre-qualified for finacing approval</h3> 
+      <p class="text-justify">Your pre-qualification approval indicates that you have the credit worthiness to secure finacing through one of our partners. This allows us to expedite the process of getting you in the car you deserve.</p>
+      <h4>Come in to the dealership and choose a car! <small> (pre-qualification status expires in 3 days)</small></h4>
+      <p>Bring these items with you:</p> 
+            <ul class="fa-ul">
+<li><i class="fa-li fa fa-check-square"></i> Proof of Residence via Utility Bill</li>
+<li><i class="fa-li fa fa-check-square"></i> Your Drivers License</li>
+<li><i class="fa-li fa fa-check-square"></i> Proof of Employment (pay stub or earnings statement)</li>
+            </ul>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4" id="aprroval_img">
+           
+        </div>
+    </div>
+</template>

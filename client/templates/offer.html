@@ -1,0 +1,33 @@
+<template name="offer">
+<div class="container_fluid">
+    <div class="Tagline">
+       <h1><span class="Tagline">Trade-in Offer</span></h1>
+       </div>
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12" id="aprroval_notice">
+<div class="panel panel-default">
+  <div class="panel-body">
+      {{#if calculationDone}}
+        {{> offerText}}
+    {{else}}
+      <h3 class="text-center">Calculating Valuation......</h3>
+        {{> spinner}} 
+    {{/if}}
+          </div>
+         
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="clear"></div>
+</template>
+
+<template name="offerText">
+    <div class="aprroval_notice row">
+        <div class="col-xs-8 col-sm-8 col-md-8" id="aprroval_notice" style="margin-left:120px; height:100px; margin-top:60px;">
+      <h3> Your Offer:</h3> 
+			<p class="text-justify">An offer has been sent to your email : {{email}}</p>
+        </div>
+    </div>
+</template>
+
